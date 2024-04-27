@@ -7,6 +7,6 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import { NextAuthOptions } from 'next-auth';
 import {authOptions} from "./authoptions"
 
-export const handler = NextAuth(authOptions) ;
+ const handler = NextAuth(authOptions) ;
 
 export { handler as GET, handler as POST };
