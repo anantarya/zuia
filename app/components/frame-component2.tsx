@@ -19,7 +19,7 @@ import { signOut, useSession } from "next-auth/react";
 import SignOut from "@/components/SignOut";
 import { useEffect } from "react";
 
-import { authOptions } from "../api/auth/[...nextauth]/route";
+
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuSub, DropdownMenuSubTrigger } from "@/components/ui/dropdown-menu";
 import { Button } from "@/components/ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
